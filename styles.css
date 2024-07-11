@@ -17,7 +17,7 @@ body {
   color: #FEF2BF;
 }
 
-ul {
+.ChangeStyle{
   list-style: square;
   line-height: 150%;
   text-align: left;
