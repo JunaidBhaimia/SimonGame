@@ -17,6 +17,17 @@ body {
   color: #FEF2BF;
 }
 
+ul {
+  list-style: square;
+  line-height: 150%;
+  text-align: left;
+}
+
+li::marker{
+   font-size: 1.8em;
+   line-height: 0.1;
+}
+
 
 .START {
   border-radius: 100%;
