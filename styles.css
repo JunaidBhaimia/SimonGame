@@ -10,6 +10,24 @@ body {
   color: #FEF2BF;
 }
 
+#Steps-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+ul {
+  list-style: square;
+  line-height: 150%;
+  text-align: left;
+}
+
+li::marker{
+   font-size: 1.8em;
+   line-height: 0.1;
+}
+
 .START {
   border-radius: 100%;
   padding: 1.5%;
@@ -61,3 +79,4 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
