@@ -6,6 +6,7 @@ var userClickedPattern = [];
 
 var started = false;
 var level = 0;
+var highScore = 0;
 
 $(document).keypress(function() {
   if (!started) {
@@ -84,6 +85,10 @@ function playSound(name) {
 }
 
 function startOver() {
+  if(level > highScore){
+    highScore = level -1;
+    $("h3").text("High Score: " + highScore);
+  }
   level = 0;
   gamePattern = [];
   started = false;
